@@ -7,6 +7,8 @@ Description: >-
   check. It will launch only 1 EC2 in the ASG. It defines 2 security groups:
   one for ALB with pub Internet access, one for EC2 to only accept traffic 
   from ALB.
+  Update latest AMI ID in AWSRegionArch2AMI mapping for your region, obsolete 
+  AMI ID may cause unexpected issue. 
   The web site is available on port 80, however, the instances can be
   configured to listen on any port (8888 by default). **WARNING** This template
   creates one or more Amazon EC2 instances and an Application Load Balancer. You
