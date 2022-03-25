@@ -1,0 +1,1 @@
+alias pg='ps aux | grep -v grep | grep $1
